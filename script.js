@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('img').forEach(img=>{img.addEventListener('error',()=>{const box=document.createElement('div');box.className='image-placeholder';box.innerHTML='<span>ADD YOUR PHOTO</span>';img.replaceWith(box)})})})
